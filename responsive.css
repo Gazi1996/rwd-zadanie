@@ -3,12 +3,14 @@
     #header
     {
         background: url('img/man-2.jpg');
-        background-size: 100%, 100%;
+        background-size: cover;
+        position: center;
         height: 70vh;
         width: 100vw;
         position: relative;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        
     }
     
     #header h1
@@ -39,7 +41,8 @@
         height: 50vh;
         width: 100vw;
         background-repeat: no-repeat;
-        
+        background-size: cover;
+        background-position: center;
     }
     
     #header h1
